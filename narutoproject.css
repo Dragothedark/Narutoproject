@@ -1,0 +1,638 @@
+body{
+    margin: 0;
+    background-color: black;
+    
+}
+.container{
+    max-width: 900px;  
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logotipohead{
+    display: flex;
+    color: rgb(233, 87, 20);
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.logotipohead img{
+    width: 150px;
+    height: auto;
+}
+.logotipohead h1{
+    font-size: 55px;
+}
+.menumobile{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+
+}
+.menumobileline{
+    width: 50px;
+    height: 5px;
+    background-color:rgb(233, 87, 20) ;
+}
+
+.menuhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.menuhead ul,.menuhead li{
+    display: inline;
+    margin-right: 50px;
+    text-transform: uppercase;
+
+    
+}
+.menuhead a{
+    text-decoration: none;
+    color: white;
+}
+.menuhead a:hover, .active{
+    border-bottom: 3px solid rgb(233, 87, 20);
+    color: rgb(161, 159, 159);
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.section-container-personagens{
+    margin: auto;
+    width:1087px;
+    height: 600px;
+    background-image: url("../media/team7bg.jpeg");
+    background-size: cover;
+    background-position:top;
+    position: relative;
+    
+}
+.section-container-personagens-bg{
+    margin: auto;
+    width:1087px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+.section-container-personagens-team7{
+    max-width: 800px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+    
+    
+
+}
+.section-container-personagens-team7 h5{
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px #777575;
+}
+
+
+
+.container-slides{
+    width: 1087px;
+    height: 360px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slides-head{
+    width: 350px;
+    height: 50px;
+    margin-top: 50px;
+}
+.slide-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.slide-sub-title{
+    font-size: 10px;
+    color: #777575;
+    margin-top: 10px;
+}
+
+
+
+.slides{
+    max-width:800px;
+    max-height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+}
+
+.slide-sasuke{
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.slide-sasuke img{
+    width: inherit;
+    height: inherit;
+}
+.slide-naruto{
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+.slide-naruto img{
+    width: inherit;
+    height: inherit;
+}
+.slide-sakura{
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+.slide-sakura img{
+    width: inherit;
+    height: inherit;
+}
+.slide-kakashi{
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+.slide-kakashi img{
+    width: inherit;
+    height: inherit;
+}
+.slides-pointers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1087px;
+    height:80px;
+    background-color: white;
+    margin: auto;
+}
+ .pointers{
+    width: 10px;
+    height:10px;
+    background-color: rgb(233, 87, 20);
+    margin-right: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor:pointer;
+}
+ .pointers:hover, .container-slides .active{
+    background-color: antiquewhite;
+    
+}
+
+
+
+.section-missions{
+    width: 1087px;
+    height: 500px;
+    background-color:black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.missions-head{
+    width: 350px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.missions-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.missions-subtitle{
+    font-size: 10px;
+    color: #777575;
+    margin-top: 10px;
+    text-align: center;
+}
+.section-missions-article{
+    margin-top: 50px;
+    max-width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-missions-article img{
+    width: 340px;
+    height: 320px;
+    box-shadow: 0px 2px 4px #777575;
+}
+.section-missions-article h5{
+    font-size: 14px;
+    color: white;
+    
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+
+
+.container-solo-personagens{
+    width: 1087px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.personagens-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.personagens-sub-title{
+    font-size: 10px;
+    color: #777575;
+    margin-top: 10px;
+    text-align: center;
+}
+.section-personagens-area{
+    margin-top: 50px;
+    max-width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-personagens-area img{
+    width: 340px;
+    height: 320px;
+    box-shadow: 0px 2px 4px #777575;
+}
+.section-personagens-area h5{
+    font-size: 14px;
+    color:#777575;
+    
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.section-personagens-area p{
+    font-size: 12px;
+    color:#777575;
+    margin-left: 15px;
+    font-weight: 200;
+    font-style: oblique;
+    text-transform: none;
+}
+
+
+
+.container-solo-personagens-black{
+    width: 1087px;
+    height: 500px;
+    background-color:black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container-solo-personagens-black .personagens-title{
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.container-solo-personagens-black .personagens-sub-title{
+    font-size: 10px;
+    color: #777575;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container-foot{
+    max-width: 1087px;
+    height: 320px;
+    background-color: rgba(63, 59, 59, 0.466);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 10px;
+}
+.footer-left{
+    width:543px ;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777575;
+}
+.footer-left input[type=text]{
+    border: none;
+    width:300px;
+    margin-bottom: 10px;
+}
+.footer-left input[type=email]{
+    border: none;
+    width:300px;
+    margin-bottom: 10px;
+}
+.footer-left input[type=submit]{
+    border: 1px solid white;
+    color: white;
+    background-color:rgb(233, 87, 20);
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.footer-left #feedback{
+    border: none;
+    width:300px;
+    height: 150px;
+}
+
+.register{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #363535;
+    margin-top: 25px;
+}
+
+.footer-right{
+    width:543px ;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #777575;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.redes-sociais img{
+    margin-right: 15px;
+}
+
+
+
+@media (min-width:450px) and (max-width:800px) {
+   
+    .menuhead {
+        font-size: 12px;
+        top: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        z-index: 99;
+        width: 300px;
+        height:600px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        display: none;
+   }
+   .menuhead ul, .menuhead li {
+    margin-bottom: 60px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.menuhead a{
+    border: none;
+    
+}
+.menuhead a:hover, .menuhead .active a{
+    color: rgb(233, 87, 20);
+    border: none;
+}
+    .logotipohead h1 {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+.menumobile{
+    display:flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.container {
+    max-width: 800px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
+.section-container-personagens-bg {
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-container-personagens {
+    margin: auto;
+    max-width: 500px;
+    height: 600px;
+    background-image: url(../media/team7bg.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.section-container-personagens-team7 {
+    max-width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.section-container-personagens-team7 h5 {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px #777575;
+}
+
+.slides-pointers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    background-color: white;
+    margin: auto;
+}
+.section-missions {
+    max-width: 768px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section-missions-article h5 {
+    font-size: 11px;
+    color: white;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.container-solo-personagens {
+    max-width:500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.section-personagens-area h5 {
+    font-size: 11px;
+    color: #777575;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.container-solo-personagens-black {
+    max-width: 768px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.container-slides {
+    max-width: 500px;
+    height: 340px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-missions {
+    max-width: 500px;
+    height: auto;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section-missions-article {
+    flex-direction: column;
+    margin-top: 50px;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-solo-personagens {
+    justify-content: center;
+    max-width: 500px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.section-personagens-area {
+    flex-direction: column;
+    margin-top: 50px;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.section-personagens-area img {
+    margin: auto;
+    width: 340px;
+    height: 320px;
+    box-shadow: 0px 2px 4px #777575;
+}
+.container-solo-personagens-black {
+    max-width: 500px;
+    height: auto;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+}
+
+@media (min-width:320px) and (max-width:425px)
+
+
+
+
+
+
+
